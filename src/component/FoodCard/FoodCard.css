@@ -1,0 +1,29 @@
+.main-cards{
+    border: 1px solid #ccc;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.main-cards:hover{
+    transition: 2s;
+    transform: rotate(-2deg);
+}
+.main-image{
+    width: 300px;
+    border-radius: 5px;
+    height: 180px;
+}
+.food-button{
+    padding: 6px 15px;
+    background-color: rgb(7, 240, 162);
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+.prices{
+    color: orangered;
+}
